@@ -30,3 +30,4 @@ SECRET ENV NODE_ID        # v2board 节点 ID
 SECRET ENV SSH_PUB_KEY # 设置Public Key 用于ssh连接 一般不需要设置 除非你需要ssh连接 ssh-rsa AAAAB3NzaC1yc2EAAA...
 SECRET ENV TUNNEL_TRANSPORT_PROTOCOL # 设置cloudflared 传输协议 默认为 quic 可选 http2
 ```
+
